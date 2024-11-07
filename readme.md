@@ -22,6 +22,9 @@ This Python-based Telegram bot facilitates the monitoring and interaction of des
 1. Clone the repository:
 
 2. Install required Python packages in requirements.txt 
+```bash
+pip install -r requirements.txt
+``` 
 
 ### Configuration
 - **Bot Token and Chat IDs**: Set your bot's token and relevant chat IDs in the script.
