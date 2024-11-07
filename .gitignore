@@ -1,0 +1,14 @@
+.venv/
+cookies.json
+config.py
+__pycache__/
+*.pyc
+*.log
+app.log
+.coverage
+htmlcov/
+csv/accounts/
+bot/
+.DS_Store
+.pytest*
+config.py

@@ -21,15 +21,8 @@ This Python-based Telegram bot facilitates the monitoring and interaction of des
 ### Installation
 1. Clone the repository:
 
-2. Install required Python packages:
+2. Install required Python packages in requirements.txt 
 
-3. Create a `config.ini` file in the project directory with the following structure for storing sensitive credentials:
-```
-[X]
-username = your_username
-email = your_email@example.com
-password = your_password
-```
 ### Configuration
 - **Bot Token and Chat IDs**: Set your bot's token and relevant chat IDs in the script.
 - **Social Media Accounts**: Configure the accounts you wish to monitor in the `SOCIAL_MEDIA_ACCOUNTS` dictionary within the script.
