@@ -47,12 +47,12 @@ python main.py
 
 ## Scheduling
 The bot uses APScheduler with timezone support for scheduled tasks:
-- Morning messages are scheduled for 7 AM, Philippine Time.
-- Evening messages are scheduled for 7 PM, Philippine Time.
+- Morning messages are scheduled for 8 AM, Philippine Time.
+- Top Posts are scheduled for 10 AM, Philippine Time.
 - Adjustments can be made in the script for scheduling other tasks or changing existing schedules.
 
 ## Contributing
 Contributions to the bot are welcome. Please fork the repository and submit pull requests with your suggested changes.
 
 ## License
-Specify your license or leave it as default (e.g., MIT, GPL, etc.).
+X. Corp
