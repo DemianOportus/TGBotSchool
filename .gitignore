@@ -12,3 +12,4 @@ bot/
 .DS_Store
 .pytest*
 config.py
+python/config.py
