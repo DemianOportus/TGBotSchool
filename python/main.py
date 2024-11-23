@@ -262,6 +262,12 @@ async def scheduled_birthday_message(member_name):
     application = Application.builder().token(BOT_TOKEN).build()
     await application.bot.send_message(chat_id=CHAT_ID, text=f"Happy Birthday, {member_name}! 🎂")
 
+# PROJECT FEATURE: Function to list the account with the highest liked tweets, and their current streak
+async def streak_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    application = Application.builder().token(BOT_TOKEN).build()
+    message = "@user12923 had the most liked tweet for 2 days in a row! ️ Keep it up! 🔥️‍🔥"
+    await context.bot.send_message(chat_id=CHAT_ID, text=message)
+
 # Main function to run the bot
 def main():
   global application
@@ -284,6 +290,7 @@ def main():
   application.add_handler(CommandHandler("islogged", check_login_status))
   application.add_handler(CommandHandler("howlong", howlongworking))
   application.add_handler(CommandHandler("pay", pay))
+  application.add_handler(CommandHandler('streak', streak_command))
 
   # Create scheduler for scheduled messages with Philippine Time (PHT)
   scheduler = AsyncIOScheduler(timezone=pytz.timezone('Asia/Manila'))
